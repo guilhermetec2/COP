@@ -47,6 +47,29 @@ nav{
     color: #F6F6F6;
 }
 
-nav button{
+nav a{
     height: 100%;
 }
+
+nav a p{
+    margin-top: 0.5rem;
+}
+
+nav .nav-hover{
+    padding: 0px !important;
+    height: 100%;
+}
+
+ main{
+    position: relative;
+    top: 160px;
+    flex: left;
+ }
+
+.accordion-situacao + .accordion-situacao{
+     margin-top: 2rem;
+ }
+
+ table tr{
+     cursor: pointer;
+ }
