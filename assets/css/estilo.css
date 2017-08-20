@@ -21,7 +21,7 @@ body{
 }
 
 .logo-container{
-    height: 60px;
+    height: 40px;
     display: block;
     color: #F6F6F6;
 }
@@ -30,14 +30,14 @@ body{
     height: 100%;
 }
 
-.logo-container h1{
+.logo-container h2{
     display: inline-block;
     position: relative;
-    bottom: calc(50% - 18px)
+    bottom: calc(50% - 8px)
 }
 
 .menu-container{
-    height: 100px;
+    height: 80px;
     background-color: #19212A;
     display: block;
 }
@@ -51,10 +51,6 @@ nav a{
     height: 100%;
 }
 
-nav a p{
-    margin-top: 0.5rem;
-}
-
 nav .nav-hover{
     padding: 0px !important;
     height: 100%;
@@ -62,7 +58,7 @@ nav .nav-hover{
 
  main{
     position: relative;
-    top: 160px;
+    top: 140px;
     flex: left;
  }
 
@@ -70,6 +66,44 @@ nav .nav-hover{
      margin-top: 2rem;
  }
 
- table tr{
+.accordion-situacao table tr{
      cursor: pointer;
  }
+
+ .search-form{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+ }
+
+ .search-form button{
+     margin-top: 22px;
+     margin-left: 0.5rem;
+ }
+
+ .card-ordem{
+     width: 320px;
+     height: auto;
+     float: left;
+     margin-bottom: 2rem;
+     margin-right: 1rem;
+ }
+
+ .card-ordem .card-ordem-head{
+    width: 100%;
+    text-align: center;
+    float: left;
+ }
+
+ .card-ordem .card-ordem-body{
+     width: 100%;
+     padding: 0.5rem;
+ }
+
+ .card-ordem .card-ordem-footer{
+     width: 100%;
+    text-align: right;
+ }
+
+ /* .card-ordem + .card-ordem{
+     margin-left: 1rem;
+ } */

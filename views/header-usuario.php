@@ -1,7 +1,7 @@
 <header>
         <section class="top-container w3-top">
             <section class="logo-container area">
-                <h1>C.O.P</h1>
+                <h2>C.O.P</h2>
                 <button class="w3-button w3-right">Guilherme Rodrigues <i class="fa fa-chevron-down"></i></button>
             </section>
 
