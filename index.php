@@ -1,12 +1,15 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-    <body>
-    
-    </body>
-</html>
+<?php
+spl_autoload_register(
+  function ($nomeDaClasse) {
+    require_once __DIR__.'/models/'.$nomeDaClasse.'.php';
+  }
+);
+session_start();
+if (isset($_GET['req'])) {
+	$requisicao = $_GET['req'];
+}
+else {
+	$requisicao = 'controller_prazos.php';
+}
+// invoco o controlador
+require_once __DIR__.'/controllers/'.$requisicao.'.php';
