@@ -104,6 +104,18 @@ nav .nav-hover{
     text-align: right;
  }
 
- /* .card-ordem + .card-ordem{
-     margin-left: 1rem;
- } */
+ .folha-ordem{
+     width: 40vw;
+     height: auto;
+     padding: 1rem;
+     float: left;
+ }
+
+ .folha-ordem table{
+     width: 60%;
+     margin-top: 2rem; 
+ }
+
+ .folha-ordem table td{
+   max-width:30vw;
+}
