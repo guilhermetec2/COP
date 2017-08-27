@@ -68,7 +68,7 @@
                 </div>
                 
                         <p>
-                            <a href="#" class="w3-button w3-blue w3-right">Editar</a>
+                            <a href="index.php?req=controller_editar-ordem" class="w3-button w3-blue w3-right">Editar</a>
                         </p>
                         
             </section>
