@@ -105,17 +105,32 @@ nav .nav-hover{
  }
 
  .folha-ordem{
-     width: 40vw;
+     width: 45vw;
      height: auto;
      padding: 1rem;
      float: left;
  }
 
  .folha-ordem table{
-     width: 60%;
+     width: 100%;
      margin-top: 2rem; 
  }
 
- .folha-ordem table td{
-   max-width:30vw;
+ .folha-ordem table tr td:first-child{
+     font-weight: bold;
+ }
+
+ .folha-ordem textarea{
+   width: 100%;
+   height: 100px;
+   position: relative;
+   top: -1.5rem;
+   resize: none;
+   border: none;
+   background-color: rgba(0, 0, 0, 0);
+   color: black;
+}
+
+.folha-ordem .w3-panel p:first-child{
+    font-weight: bold;
 }
