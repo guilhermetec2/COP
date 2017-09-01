@@ -80,7 +80,8 @@ nav .nav-hover{
      margin-left: 0.5rem;
  }
 
- .card-ordem{
+ .card-ordem,
+ .card-tecnico{
      width: 320px;
      height: auto;
      float: left;
@@ -88,12 +89,17 @@ nav .nav-hover{
      margin-right: 1rem;
  }
 
- .card-ordem .card-ordem-head{
+ .card-ordem .card-ordem-head,
+ .card-tecnico .card-tecnico-head{
     width: 100%;
     text-align: center;
     float: left;
  }
 
+ .card-tecnico .card-tecnico-head{
+    text-align: left;
+    padding-left: 1rem;
+ }
  .card-ordem .card-ordem-body{
      width: 100%;
      padding: 0.5rem;
@@ -103,6 +109,8 @@ nav .nav-hover{
      width: 100%;
     text-align: right;
  }
+
+
 
  .folha-ordem,
  .folha-edit{

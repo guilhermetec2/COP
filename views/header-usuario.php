@@ -15,7 +15,7 @@
                         <p><i class="fa fa-pencil-square-o w3-xxlarge"></i></p>
                         Cadastrar
                     </a>
-                    <a class="w3-bar-item w3-button w3-large" href="index.php?req=controller_tecnicos">
+                    <a class="w3-bar-item w3-button w3-large" href="index.php?req=controller_busca-tecnicos">
                         <p><i class="fa fa-wrench w3-xxlarge"></i></p>
                         Técnicos
                     </a>

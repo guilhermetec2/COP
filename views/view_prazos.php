@@ -39,19 +39,19 @@
                                 <th>Prazo</th>
                             </tr>
                         </thead>
-                        <tr onclick="location.href = 'index.php?req=ordens'"> 
+                        <tr onclick="location.href = 'index.php?req=controller_ver-ordem'"> 
                             <td>82057</td>
                             <td>Diego Dinarte</td>
                             <td>30/07/2017</td>
                             <td>15/08/2017</td>                                                                                  
                         </tr>
-                            <tr onclick="location.href = 'index.php?req=ordens'"> 
+                            <tr onclick="location.href = 'index.php?req=controller_ver-ordem'"> 
                             <td>82057</td>
                             <td>Diego Dinarte</td>
                             <td>30/07/2017</td>
                             <td>15/08/2017</td>                                                                                  
                         </tr>
-                        <tr onclick="location.href = 'index.php?req=ordens'"> 
+                        <tr onclick="location.href = 'index.php?req=controller_ver-ordem'"> 
                             <td>82057</td>
                             <td>Diego Dinarte</td>
                             <td>30/07/2017</td>
@@ -75,19 +75,19 @@
                                     <th>Prazo</th>
                                 </tr>
                             </thead>
-                            <tr onclick="location.href = 'index.php?req=ordens'"> 
+                            <tr onclick="location.href = 'index.php?req=controller_ver-ordem'"> 
                                 <td>82057</td>
                                 <td>Diego Dinarte</td>
                                 <td>30/07/2017</td>
                                 <td>15/08/2017</td>                                                                                  
                             </tr>
-                                <tr onclick="location.href = 'index.php?req=ordens'"> 
+                                <tr onclick="location.href = 'index.php?req=controller_ver-ordem'"> 
                                 <td>82057</td>
                                 <td>Diego Dinarte</td>
                                 <td>30/07/2017</td>
                                 <td>15/08/2017</td>                                                                                  
                             </tr>
-                            <tr onclick="location.href = 'index.php?req=ordens'"> 
+                            <tr onclick="location.href = 'index.php?req=controller_ver-ordem'"> 
                                 <td>82057</td>
                                 <td>Diego Dinarte</td>
                                 <td>30/07/2017</td>
