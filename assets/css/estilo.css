@@ -33,11 +33,12 @@ body{
 .logo-container h2{
     display: inline-block;
     position: relative;
-    bottom: calc(50% - 8px)
+    bottom: calc(50% - 12px);
+    font-size: 24px;
 }
 
 .menu-container{
-    height: 80px;
+    height: 65px;
     background-color: #19212A;
     display: block;
 }
@@ -58,7 +59,7 @@ nav .nav-hover{
 
  main{
     position: relative;
-    top: 140px;
+    top: 120px;
     flex: left;
  }
 
@@ -86,7 +87,7 @@ nav .nav-hover{
      height: auto;
      float: left;
      margin-bottom: 2rem;
-     margin-right: 1rem;
+     margin-right: 2rem;
  }
 
  .card-ordem .card-ordem-head,
@@ -105,11 +106,17 @@ nav .nav-hover{
      padding: 0.5rem;
  }
 
- .card-ordem .card-ordem-footer{
+.card-ordem-body table tr:first-child{
+    font-weight: bold;
+}
+
+ .card-ordem .card-ordem-footer,
+ .card-tecnico .card-tecnico-footer{
      width: 100%;
     text-align: right;
  }
 
+ 
 
 
  .folha-ordem,

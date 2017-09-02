@@ -9,7 +9,7 @@ if (isset($_GET['req'])) {
 	$requisicao = $_GET['req'];
 }
 else {
-	$requisicao = 'controller_prazos';
+	$requisicao = 'controller_buscar-ordem';
 }
 // invoco o controlador
 require_once __DIR__.'/controllers/'.$requisicao.'.php';

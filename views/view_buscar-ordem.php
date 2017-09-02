@@ -36,35 +36,267 @@
             
             <section class="w3-container w3-margin-top">
                 <!-- aqui aparece o resultado da pesquisa -->
-                <?php for($i = 0; $i < 6; $i++){ ?>
                 <div class="card-ordem w3-card-4"><!-- inicio .card-ordem -->
-                    <div class="card-ordem-head w3-light-green"><h3>82666</h3></div>
-                    <div class="card-ordem-body">
-                        <table class="w3-table w3-striped">
-                            <tr>
-                                <td>Técnico:</td>
-                                <td>Guilherme Rodrigues</td>
-                            </tr>
-                            <tr>
-                                <td>Situação:</td>
-                                <td>Aprovado</td>
-                            </tr>
-                            <tr>
-                                <td>Entrada:</td>
-                                <td>30/06/2017</td>
-                            </tr>
-                            <tr>
-                                <td>Prazo:</td>
-                                <td>02/07/2017</td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="card-ordem-footer w3-light-grey w3-padding">
-                        <a href="index.php?req=controller_ver-ordem" class="w3-text-blue">Ver tudo</a>
-                        <a href="index.php?req=controller_editar-ordem" class="w3-button w3-blue w3-margin-left">Editar</a>
-                    </div>
-                </div><!-- fim .card-ordem -->
-                <?php } ?>        
+                <div class="card-ordem-head w3-red"><h3>82666</h3></div>
+                <div class="card-ordem-body">
+                    <table class="w3-table w3-striped">
+                        <tr>
+                            <td>Situação:</td>
+                            <td>Urgência</td>
+                        </tr>
+                        <tr>
+                            <td>Técnico:</td>
+                            <td>Guilherme Rodrigues</td>
+                        </tr>
+                        <tr>
+                            <td>Entrada:</td>
+                            <td>30/06/2017</td>
+                        </tr>
+                        <tr>
+                            <td>Prazo:</td>
+                            <td>02/07/2017</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="card-ordem-footer w3-light-grey w3-padding">
+                    <a href="index.php?req=controller_ver-ordem" class="w3-text-grey w3-hover-text-red w3-left" title="Deletar"><i class="fa fa-trash w3-xxlarge"></i></a>
+                    <a href="index.php?req=controller_ver-ordem" class="w3-text-blue w3-hover-text-green">Visualizar</a>
+                    <a href="index.php?req=controller_editar-ordem" class="w3-button w3-blue w3-margin-left w3-border w3-border-blue w3-hover-white w3-hover-text-blue">Editar</a>
+                </div>
+            </div><!-- fim .card-ordem -->  
+            
+            <div class="card-ordem w3-card-4"><!-- inicio .card-ordem -->
+                <div class="card-ordem-head w3-deep-orange"><h3>82666</h3></div>
+                <div class="card-ordem-body">
+                    <table class="w3-table w3-striped">
+                        <tr>
+                            <td>Situação:</td>
+                            <td>Garantia</td>
+                        </tr>
+                        <tr>
+                            <td>Técnico:</td>
+                            <td>Guilherme Rodrigues</td>
+                        </tr>
+                        <tr>
+                            <td>Entrada:</td>
+                            <td>30/06/2017</td>
+                        </tr>
+                        <tr>
+                            <td>Prazo:</td>
+                            <td>02/07/2017</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="card-ordem-footer w3-light-grey w3-padding">
+                    <a href="index.php?req=controller_ver-ordem" class="w3-text-grey w3-hover-text-red w3-left" title="Deletar"><i class="fa fa-trash w3-xxlarge"></i></a>                    
+                    <a href="index.php?req=controller_ver-ordem" class="w3-text-blue w3-hover-text-green">Visualizar</a>
+                    <a href="index.php?req=controller_editar-ordem" class="w3-button w3-blue w3-margin-left w3-border w3-border-blue w3-hover-white w3-hover-text-blue">Editar</a>
+                </div>
+            </div><!-- fim .card-ordem -->
+
+            
+        <div class="card-ordem w3-card-4"><!-- inicio .card-ordem -->
+                <div class="card-ordem-head w3-yellow"><h3>82666</h3></div>
+                <div class="card-ordem-body">
+                    <table class="w3-table w3-striped">
+                        <tr>
+                            <td>Situação:</td>
+                            <td>Orçamento</td>
+                        </tr>
+                        <tr>
+                            <td>Técnico:</td>
+                            <td>Guilherme Rodrigues</td>
+                        </tr>
+                        <tr>
+                            <td>Entrada:</td>
+                            <td>30/06/2017</td>
+                        </tr>
+                        <tr>
+                            <td>Prazo:</td>
+                            <td>02/07/2017</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="card-ordem-footer w3-light-grey w3-padding">
+                    <a href="index.php?req=controller_ver-ordem" class="w3-text-grey w3-hover-text-red w3-left" title="Deletar"><i class="fa fa-trash w3-xxlarge"></i></a>                    
+                    <a href="index.php?req=controller_ver-ordem" class="w3-text-blue w3-hover-text-green">Visualizar</a>
+                    <a href="index.php?req=controller_editar-ordem" class="w3-button w3-blue w3-margin-left w3-border w3-border-blue w3-hover-white w3-hover-text-blue">Editar</a>
+                </div>
+            </div><!-- fim .card-ordem -->
+
+            <div class="card-ordem w3-card-4"><!-- inicio .card-ordem -->
+                <div class="card-ordem-head w3-amber"><h3>82666</h3></div>
+                <div class="card-ordem-body">
+                    <table class="w3-table w3-striped">
+                        <tr>
+                            <td>Situação:</td>
+                            <td>Orç. Concluído</td>
+                        </tr>
+                        <tr>
+                            <td>Técnico:</td>
+                            <td>Guilherme Rodrigues</td>
+                        </tr>
+                        <tr>
+                            <td>Entrada:</td>
+                            <td>30/06/2017</td>
+                        </tr>
+                        <tr>
+                            <td>Prazo:</td>
+                            <td>02/07/2017</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="card-ordem-footer w3-light-grey w3-padding">
+                    <a href="index.php?req=controller_ver-ordem" class="w3-text-grey w3-hover-text-red w3-left" title="Deletar"><i class="fa fa-trash w3-xxlarge"></i></a>                    
+                    <a href="index.php?req=controller_ver-ordem" class="w3-text-blue w3-hover-text-green">Visualizar</a>
+                    <a href="index.php?req=controller_editar-ordem" class="w3-button w3-blue w3-margin-left w3-border w3-border-blue w3-hover-white w3-hover-text-blue">Editar</a>
+                </div>
+            </div><!-- fim .card-ordem -->
+
+            <div class="card-ordem w3-card-4"><!-- inicio .card-ordem -->
+                <div class="card-ordem-head w3-light-green"><h3>82666</h3></div>
+                <div class="card-ordem-body">
+                    <table class="w3-table w3-striped">
+                         <tr>
+                            <td>Situação:</td>
+                            <td>Aprovado</td>
+                        </tr>
+                        <tr>
+                            <td>Técnico:</td>
+                            <td>Guilherme Rodrigues</td>
+                        </tr>
+                        <tr>
+                            <td>Entrada:</td>
+                            <td>30/06/2017</td>
+                        </tr>
+                        <tr>
+                            <td>Prazo:</td>
+                            <td>02/07/2017</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="card-ordem-footer w3-light-grey w3-padding">
+                    <a href="index.php?req=controller_ver-ordem" class="w3-text-grey w3-hover-text-red w3-left" title="Deletar"><i class="fa fa-trash w3-xxlarge"></i></a>                        
+                    <a href="index.php?req=controller_ver-ordem" class="w3-text-blue w3-hover-text-green">Visualizar</a>
+                    <a href="index.php?req=controller_editar-ordem" class="w3-button w3-blue w3-margin-left w3-border w3-border-blue w3-hover-white w3-hover-text-blue">Editar</a>
+                </div>
+            </div><!-- fim .card-ordem -->
+
+            <div class="card-ordem w3-card-4"><!-- inicio .card-ordem -->
+                <div class="card-ordem-head w3-light-blue"><h3>82666</h3></div>
+                <div class="card-ordem-body">
+                    <table class="w3-table w3-striped">
+                        <tr>
+                            <td>Situação:</td>
+                            <td>Em andamento</td>
+                        </tr>
+                        <tr>
+                            <td>Técnico:</td>
+                            <td>Guilherme Rodrigues</td>
+                        </tr>
+                        <tr>
+                            <td>Entrada:</td>
+                            <td>30/06/2017</td>
+                        </tr>
+                        <tr>
+                            <td>Prazo:</td>
+                            <td>02/07/2017</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="card-ordem-footer w3-light-grey w3-padding">
+                    <a href="index.php?req=controller_ver-ordem" class="w3-text-grey w3-hover-text-red w3-left" title="Deletar"><i class="fa fa-trash w3-xxlarge"></i></a>                    
+                    <a href="index.php?req=controller_ver-ordem" class="w3-text-blue w3-hover-text-green">Visualizar</a>
+                    <a href="index.php?req=controller_editar-ordem" class="w3-button w3-blue w3-margin-left w3-border w3-border-blue w3-hover-white w3-hover-text-blue">Editar</a>
+                </div>
+            </div><!-- fim .card-ordem -->
+
+            <div class="card-ordem w3-card-4"><!-- inicio .card-ordem -->
+                <div class="card-ordem-head w3-blue"><h3>82666</h3></div>
+                <div class="card-ordem-body">
+                    <table class="w3-table w3-striped">
+                        <tr>
+                            <td>Situação:</td>
+                            <td>Pronto</td>
+                        </tr>
+                        <tr>
+                            <td>Técnico:</td>
+                            <td>Guilherme Rodrigues</td>
+                        </tr>
+                        <tr>
+                            <td>Entrada:</td>
+                            <td>30/06/2017</td>
+                        </tr>
+                        <tr>
+                            <td>Prazo:</td>
+                            <td>02/07/2017</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="card-ordem-footer w3-light-grey w3-padding">
+                    <a href="index.php?req=controller_ver-ordem" class="w3-text-grey w3-hover-text-red w3-left" title="Deletar"><i class="fa fa-trash w3-xxlarge"></i></a>                    
+                    <a href="index.php?req=controller_ver-ordem" class="w3-text-blue w3-hover-text-green">Visualizar</a>
+                    <a href="index.php?req=controller_editar-ordem" class="w3-button w3-blue w3-margin-left w3-border w3-border-blue w3-hover-white w3-hover-text-blue">Editar</a>
+                </div>
+            </div><!-- fim .card-ordem -->
+
+            <div class="card-ordem w3-card-4"><!-- inicio .card-ordem -->
+                <div class="card-ordem-head w3-blue-grey"><h3>82666</h3></div>
+                <div class="card-ordem-body">
+                    <table class="w3-table w3-striped">
+                        <tr>
+                            <td>Situação:</td>
+                            <td>Sem Sucesso</td>
+                        </tr>
+                        <tr>
+                            <td>Técnico:</td>
+                            <td>Guilherme Rodrigues</td>
+                        </tr>
+                        <tr>
+                            <td>Entrada:</td>
+                            <td>30/06/2017</td>
+                        </tr>
+                        <tr>
+                            <td>Prazo:</td>
+                            <td>02/07/2017</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="card-ordem-footer w3-light-grey w3-padding">
+                    <a href="index.php?req=controller_ver-ordem" class="w3-text-grey w3-hover-text-red w3-left" title="Deletar"><i class="fa fa-trash w3-xxlarge"></i></a>                    
+                    <a href="index.php?req=controller_ver-ordem" class="w3-text-blue w3-hover-text-green">Visualizar</a>
+                    <a href="index.php?req=controller_editar-ordem" class="w3-button w3-blue w3-margin-left w3-border w3-border-blue w3-hover-white w3-hover-text-blue">Editar</a>
+                </div>
+            </div><!-- fim .card-ordem -->
+
+            <div class="card-ordem w3-card-4"><!-- inicio .card-ordem -->
+                <div class="card-ordem-head w3-dark-grey"><h3>82666</h3></div>
+                <div class="card-ordem-body">
+                    <table class="w3-table w3-striped">
+                        <tr>
+                            <td>Situação:</td>
+                            <td>Montagem(não aprovado)</td>
+                        </tr>
+                        <tr>
+                            <td>Técnico:</td>
+                            <td>Guilherme Rodrigues</td>
+                        </tr>
+                        <tr>
+                            <td>Entrada:</td>
+                            <td>30/06/2017</td>
+                        </tr>
+                        <tr>
+                            <td>Prazo:</td>
+                            <td>02/07/2017</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="card-ordem-footer w3-light-grey w3-padding">
+                    <a href="index.php?req=controller_ver-ordem" class="w3-text-grey w3-hover-text-red w3-left" title="Deletar"><i class="fa fa-trash w3-xxlarge"></i></a>                    
+                    <a href="index.php?req=controller_ver-ordem" class="w3-text-blue w3-hover-text-green">Visualizar</a>
+                    <a href="index.php?req=controller_editar-ordem" class="w3-button w3-blue w3-margin-left w3-border w3-border-blue w3-hover-white w3-hover-text-blue">Editar</a>
+                </div>
+            </div><!-- fim .card-ordem -->
                 
             </section>
 
