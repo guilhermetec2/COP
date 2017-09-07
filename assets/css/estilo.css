@@ -116,9 +116,6 @@ nav .nav-hover{
     text-align: right;
  }
 
- 
-
-
  .folha-ordem,
  .folha-edit{
      width: 45vw;
@@ -159,4 +156,34 @@ nav .nav-hover{
 
 .folha-ordem .w3-panel p:first-child{
     font-weight: bold;
+}
+
+.container-home-tecnico{
+    margin-top: 2rem;
+}
+
+.card-status{
+    width: 250px;
+    float: left;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+}
+
+.card-status-head{
+    width: 100%;
+    text-align: center;
+    float: left;
+} 
+
+.card-status-body{
+    text-align: center;
+    font-size: 72px;
+    padding: 1rem; 
+}
+
+.card-status-body a{
+    position: relative;
+    width: 100%;
+    height: 100%;
 }

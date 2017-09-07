@@ -2,7 +2,13 @@
         <section class="top-container w3-top">
             <section class="logo-container area">
                 <h2>Sistema Interno</h2>
-                <button class="w3-button w3-right">Guilherme Rodrigues <i class="fa fa-chevron-down"></i></button>
+                <div class="w3-dropdown-hover w3-right">
+                    <button class="w3-button">Guilherme Rodrigues <i class="fa fa-chevron-down"></i></button>
+                    <div class="w3-dropdown-content w3-bar-block w3-border">
+                        <a href="#" class="w3-bar-item w3-button">Mudar Senha</a>
+                        <a href="#" class="w3-bar-item w3-button">Sair</a>
+                    </div>
+                </div>
             </section>
 
             <section class="menu-container">

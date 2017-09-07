@@ -64,7 +64,7 @@
                         </table>
                     </div>
                     <div class="card-tecnico-footer w3-light-grey w3-padding">
-                        <a href="index.php?req=controller_editar-ordem" class="w3-button w3-blue w3-margin-left w3-border w3-border-blue w3-hover-white w3-hover-text-blue">Visualizar</a>
+                        <a href="index.php?req=controller_home-tecnico" class="w3-button w3-blue w3-margin-left w3-border w3-border-blue w3-hover-white w3-hover-text-blue">Visualizar</a>
                     </div>
                 </div><!-- fim .card-ordem -->
                 <?php } ?>        
